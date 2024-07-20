@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left, .right {
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: bisque;
+    width:40%;
+    border-right: 1px solid #ddd;
+}
+
+.right {
+    padding-left: 30px;
+}
